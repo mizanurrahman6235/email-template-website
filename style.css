@@ -1,0 +1,315 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{}
+.email-container{
+	max-width: 600px;
+	display: block;
+	overflow: hidden;
+	background: #fff;
+	color: #909090;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+}
+.col-2{
+	flex-basis: 48%;
+	max-width: 280px;	
+}
+.col-2 img{
+	width: 100%;
+}
+.col-3{
+	flex-basis: 33%;
+	max-width: 190px;	
+}
+.col-3 img{
+	width: 100%;
+}
+.btn{
+	background: #F3A333;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: none;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 30px;
+}
+.title{
+	color: #858585 !important;
+	text-align: center;
+	position: relative;
+	line-height: 40px;
+	margin: 30px 0;
+}
+.title:after{
+	content: "";
+	width: 50px;
+	height: 3px;
+	background: #F3A333;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+h1{
+	color: #000;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+p{
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+.header{
+	text-align: center;
+	padding: 20px 0;
+	width: 100%;
+	background: #fff;
+}
+.header a{
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.content {
+	width: 100%;
+	text-align: center;	
+	background: url(images/content-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: auto;
+	color: #fff !important;
+	height: 500px;
+	margin-top: -15px;
+}
+.content-text{	
+	padding: 0 40px;
+}
+.content h1{
+	color: #fff !important;
+	padding-top: 100px;
+}
+.content p{
+	padding: 20px 0;
+	line-height: 30px;
+}
+.welcome{
+	padding: 50px 0;
+	text-align: center;
+	background: #333333;
+	margin-top: 0px;
+}
+.welcome h1{
+	color: #fff !important;
+}
+.welcome p{
+	padding: 0 40px;
+	line-height: 30px;
+}
+.services{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.services img{
+	width: 70px !important;
+	height: 70px !important;	
+}
+.services h1+p{
+	padding: 10px 100px;
+}
+.single-service{
+	margin: 30px 0;
+}
+.single-service h2{
+	margin: 20px 0;
+}
+.video{
+	text-align: center;
+	margin: 50px 0;
+}
+.video img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.video h1{
+	margin: 30px 0;
+}
+.video p{
+	padding: 0 50px;
+	line-height: 30px;
+}
+.menu-delicious-food{
+	margin: 50px 0;
+}
+.menu-delicious-food h1{
+	text-align: center;
+}
+.menu-delicious-food h1+p{
+	text-align: center;
+	padding: 0 100px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.single-menu{
+	margin: 30px 0;
+	padding: 0 20px;
+}
+.single-menu h2{
+	margin: 15px 0;
+	color: #000;
+}
+.single-menu p {
+	padding: 15px 0px;
+	line-height: 28px;
+}
+.customer{
+	text-align: center;
+	color: #fff !important;
+	padding: 70px 0;
+	background: url(images/customer-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	width: 100%;
+	height: auto;
+}
+.single-customer{
+	margin: 15px 0;
+}
+.single-customer h2{
+	margin: 20px 0;
+	font-size: 40px;
+}
+.blog{}
+.blog h1{
+	text-align: center;
+}
+.blog h1+p{
+	text-align: center;
+	padding: 15px 100px;
+	line-height: 30px;	
+}
+.single-blog{
+	margin: 30px 0;
+	padding: 0 15px;
+}
+.single-blog h2{
+	margin: 20px 0;
+	color: #000;
+}
+.single-blog p{
+	margin: 20px 0;	
+}
+.testimonial{
+	margin: 50px 0;
+}
+.testimonial h1{
+	margin: 15px 0;
+	text-align: center;
+}
+.testimonial h1+p{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 0 100px;
+	line-height: 30px;
+}
+.single-testimonial{
+	margin: 30px 0;
+	text-align: center;
+}
+.single-testimonial h2{
+	margin: 15px 0;
+	color: #000;
+}
+.single-testimonial p {
+	padding: 0 40px;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+.single-testimonial img{
+	width: 100px !important;
+	height: 100px !important;	
+	border-radius: 50%;
+}
+.footer{
+	background: #000;
+	color: #fff !important;
+	padding: 50px 15px;
+}
+.footer-top{}
+.single-footer-top{
+	margin: 15px 0;
+}
+.single-footer-top h2{
+	margin: 30px 0;
+}
+.single-footer-top ul{
+	list-style: none;
+}
+.single-footer-top ul li{
+	margin-bottom: 15px;
+}
+.single-footer-top ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer-bottom{
+	padding-top: 30px;
+}
+.footer-bottom-left{
+	float: left;
+	width: 70%;
+}
+.footer-bottom-right{
+	float: right;
+	width: 30%;
+}
+.footer-bottom-right a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/*-------responsive css--------*/
+/* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+@media only screen and (min-device-width: 300px) and (max-device-width: 374px) {
+    .email-container {
+        min-width: 300px !important;
+    }
+	h1{
+		font-size: 24px !important;
+	}
+	h2{
+		font-size: 18px;
+	}
+	.footer-bottom p{
+		font-size: 14px;
+	}	
+}
+/* iPhone 6, 6S, 7, 8, and X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+    .email-container {
+        min-width: 375px !important;
+    }
+}
+/* iPhone 6+, 7+, and 8+ */
+@media only screen and (min-device-width: 414px) {
+    .email-container {
+        min-width: 414px !important;
+    }
+}
